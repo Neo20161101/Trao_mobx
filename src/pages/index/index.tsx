@@ -49,7 +49,7 @@ class Index extends Component {
 
   render () {
     return (
-      <Home/>
+      <Home />
     )
   }
 }

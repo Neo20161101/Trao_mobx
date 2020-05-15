@@ -1,14 +1,13 @@
 {
   "miniprogramRoot": "./dist",
   "projectname": "myApp",
-  "description": "wqz",
-  "appid": "wx65c0a024bdf21338",
+  "description": "萨达",
+  "appid": "touristappid",
   "setting": {
     "urlCheck": true,
     "es6": false,
     "postcss": false,
     "minified": false
   },
-  "compileType": "miniprogram",
-  "sitemapLocation": "sitemap.json"
+  "compileType": "miniprogram"
 }

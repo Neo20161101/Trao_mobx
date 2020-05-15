@@ -30,9 +30,7 @@ class Index extends Component {
    */
 	constructor(props) {
 		super(props)
-		this.state = {
-
-		}
+		this.state = { }
 	}
 	config: Config = {
 		navigationBarTitleText: '会员',

@@ -29,7 +29,7 @@ class App extends Component {
    */
   config: Config = {
     pages: [
-      'pages/index/index',
+      "pages/index/index",
       "pages/tabBar/tabB/index",
       "pages/tabBar/tabC/index",
       "pages/tabBar/tabD/index",
@@ -60,7 +60,8 @@ class App extends Component {
       "selectedColor": "#E2D3A9",
       "borderStyle": "black",
       "backgroundColor": "#202020",
-      "list": [{
+      "list": [
+        {
           "pagePath": "pages/index/index",
           "iconPath": "static/img/tabBar/home.png",
           "selectedIconPath": "static/img/tabBar/home-on.png",

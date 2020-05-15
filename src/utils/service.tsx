@@ -1,7 +1,5 @@
 import Taro from '@tarojs/taro'
 
-
-6
 const foodstp = "https://www.wqz.com:2014";
 const localhost = "http://www.wqz.com:2012";
 
