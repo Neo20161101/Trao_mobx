@@ -24,6 +24,7 @@ const setHearder = () => {
   }
 }
 
+//自定义接口
 const httpStore = observable({
   counter: 0,
   FetchWechatLogin(body) { // 微信账号登陆
@@ -33,7 +34,6 @@ const httpStore = observable({
     setHearder()
     return Fetch("/api/master/pub/register",body,"post")
   },
-  //自定义接口
   FetchTestList(body) {
     setHearder()
     hearder["content-type"] = "application/x-www-form-urlencoded";
