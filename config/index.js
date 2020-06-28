@@ -1,6 +1,6 @@
 const config = {
-  projectName: 'myApp',
-  date: '2020-5-16',
+  projectName: 'taroDemo',
+  date: '2020-6-28',
   designWidth: 750,
   deviceRatio: {
     '640': 2.34 / 2,
@@ -29,6 +29,10 @@ const config = {
       ]
     ]
   },
+  plugins: [
+    '@tarojs/plugin-sass',
+    '@tarojs/plugin-terser'
+  ],
   defineConstants: {
   },
   mini: {
@@ -85,6 +89,11 @@ const config = {
           generateScopedName: '[name]__[local]___[hash:base64:5]'
         }
       }
+    }
+  },
+  rn:{
+    sassLoaderOption: {
+      implementation: require("dart-sass")
     }
   }
 }

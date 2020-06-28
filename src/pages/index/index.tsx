@@ -1,9 +1,9 @@
 import { ComponentType } from 'react'
 import Taro, { Component, Config } from '@tarojs/taro'
+import { View, Button, Text } from '@tarojs/components'
 import { observer, inject } from '@tarojs/mobx'
-import Home from '../tabBar/home/index'
 
-import './index.styl'
+import './index.scss'
 
 type PageStateProps = {
   counterStore: {
@@ -33,23 +33,44 @@ class Index extends Component {
     navigationBarTitleText: '首页'
   }
 
-  componentWillMount () {}//dom加载前
+  componentWillMount () { }
 
   componentWillReact () {
     console.log('componentWillReact')
   }
 
-  componentDidMount () { }//dom加载后
+  componentDidMount () { }
 
-  componentWillUnmount () { }//离开路由
+  componentWillUnmount () { }
 
-  componentDidShow () { }//显示页面时
+  componentDidShow () { }
 
-  componentDidHide () { }//隐藏页面时
+  componentDidHide () { }
+
+  increment = () => {
+    const { counterStore } = this.props
+    counterStore.increment()
+  }
+
+  decrement = () => {
+    const { counterStore } = this.props
+    counterStore.decrement()
+  }
+
+  incrementAsync = () => {
+    const { counterStore } = this.props
+    counterStore.incrementAsync()
+  }
 
   render () {
+    const { counterStore: { counter } } = this.props
     return (
-      <Home />
+      <View className='index'>
+        <Button onClick={this.increment}>+</Button>
+        <Button onClick={this.decrement}>-</Button>
+        <Button onClick={this.incrementAsync}>Add Async</Button>
+        <Text>{counter}</Text>
+      </View>
     )
   }
 }
