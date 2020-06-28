@@ -4,7 +4,7 @@ import { View } from '@tarojs/components'
 import { observer, inject } from '@tarojs/mobx'
 import { AtTag } from 'taro-ui'
 import Notfound_404 from '../../components/Notfound/404'
-import './tabC.styl'
+import './tabC.scss'
 
 type PageStateProps = {
   counterStore: {

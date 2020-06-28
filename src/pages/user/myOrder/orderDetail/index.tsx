@@ -4,7 +4,7 @@ import { View, Button, Text, Image } from '@tarojs/components'
 import { observer, inject } from '@tarojs/mobx'
 import { AtList, AtListItem, AtCard } from "taro-ui"
 
-import './index.styl'
+import './index.scss'
 import counterStore from "../../../../store/counter";
 
 type PageStateProps = {

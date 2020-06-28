@@ -3,7 +3,7 @@ import Taro, { Component, Config } from '@tarojs/taro'
 import { View } from '@tarojs/components'
 import { observer, inject } from '@tarojs/mobx'
 import TabC from '../../tabC/tabC'
-import './index.styl'
+import './index.scss'
 
 type PageStateProps = {
   counterStore: {

@@ -7,7 +7,7 @@ declare module "*.css";
 declare module "*.less";
 declare module "*.scss";
 declare module "*.sass";
-declare module "*.styl";
+declare module "*.scss";
 
 declare namespace JSX {
     interface IntrinsicElements {

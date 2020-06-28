@@ -4,7 +4,7 @@ import { View, Picker } from '@tarojs/components'
 import { observer, inject } from '@tarojs/mobx'
 import { AtForm,AtInput,AtButton,AtCheckbox } from 'taro-ui'
 
-import './index.styl'
+import './index.scss'
 
 type PageStateProps = {
   http: {

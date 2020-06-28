@@ -5,8 +5,6 @@ $ yarn global add @tarojs/cli
 # OR 安装了 cnpm，使用 cnpm 安装 CLI
 $ cnpm install -g @tarojs/cli
 
-
-
 # 使用 yarn 安装依赖
 $ yarn
 # OR 使用 cnpm 安装依赖

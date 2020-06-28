@@ -4,7 +4,7 @@ import { View, Button, Text, Image } from '@tarojs/components'
 import { observer, inject } from '@tarojs/mobx'
 import { AtAvatar, AtTabs, AtTabsPane } from 'taro-ui'
 
-import './index.styl'
+import './index.scss'
 
 type PageStateProps = {
   http: {

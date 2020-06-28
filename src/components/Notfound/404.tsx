@@ -4,7 +4,7 @@ import {View, Button, Text, Image} from '@tarojs/components'
 import { observer, inject } from '@tarojs/mobx'
 import { AtDivider } from 'taro-ui'
 import Icon_404 from '../../static/img/notfound/icon_404.png'
-import './style.styl'
+import './style.scss'
 
 type PageStateProps = {
   counterStore: {

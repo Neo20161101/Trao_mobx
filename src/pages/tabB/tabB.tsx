@@ -4,7 +4,7 @@ import { View, Button, Text, Input, Image } from '@tarojs/components'
 import { observer, inject } from '@tarojs/mobx'
 import { AtTabs, AtTabsPane } from 'taro-ui'
 import Ss from '../../static/img/home/ss.png'
-import './tabB.styl'
+import './tabB.scss'
 
 type PageStateProps = {
   counterStore: {

@@ -5,7 +5,7 @@ import { observer, inject } from '@tarojs/mobx'
 import { AtCard, AtTabs,AtTabsPane } from 'taro-ui'
 import Notfound_404 from '../../../components/Notfound/404'
 
-import './index.styl'
+import './index.scss'
 
 type PageStateProps = {
   http: {

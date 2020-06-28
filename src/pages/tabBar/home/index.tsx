@@ -11,7 +11,7 @@ import Rule from '../../../static/img/home/规则引擎.png'
 import Guidance_book from '../../../static/img/home/指导书.png'
 import Icon_serve_vip from '../../../static/img/home/icon_serve_vip.png'
 
-import './index.styl'
+import './index.scss'
 
 type PageStateProps = {
   http: {
