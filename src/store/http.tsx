@@ -27,14 +27,14 @@ const setHearder = () => {
 //自定义接口
 const httpStore = observable({
   counter: 0,
-  FetchWechatLogin(body) { // 微信账号登陆
+  FetchWechatLogin(body:any) { // 微信账号登陆
     return Fetch("/api/master/pub/login",body,"post")//methed默认post,可不写
   },
-  FetchWechatRegister(body) { // 微信账号注册
+  FetchWechatRegister(body:any) { // 微信账号注册
     setHearder()
     return Fetch("/api/master/pub/register",body,"post")
   },
-  FetchTestList(body) {
+  FetchTestList(body:any) {
     setHearder()
     hearder["content-type"] = "application/x-www-form-urlencoded";
     return Fetch("/api/master/home/TestList",body,"get")

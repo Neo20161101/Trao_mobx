@@ -3,11 +3,11 @@
   background-color: #fff;
   .at-input{
     input{
-      font-size 28px;
+      font-size:28px;
     }
   }
   .at-input__input,.at-input__title{
-    font-size 28px;
+    font-size:28px;
   }
   .btn{
     padding: 30px 20px 20px 20px;
@@ -16,14 +16,14 @@
     }
   }
   .default_checkbox{
-    overflow hidden;
+    overflow:hidden;
     line-height: 96px;
     padding: 0 32px;
     position:relative;
     label{
       float:left;
-      font-size 28px;
-      width 172px;
+      font-size:28px;
+      width:172px;
     }
     .checkbox{
       float:left;

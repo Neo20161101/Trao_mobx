@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "myApp",
-  "description": "萨达",
+  "projectname": "Trao_mobx",
+  "description": "taro_mobx",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,

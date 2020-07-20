@@ -1,15 +1,23 @@
-.notfound_404
+.notfound_404{
   height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  .AtDivider
+  .AtDivider{
     background-color:#f8f8f8;
-    .at-divider__content
-      background-color:#f8f8f8;
+  }
+
+  .at-divider__content{
+    background-color:#f8f8f8;
+  }
+
+}
 
 
-  image
+
+  image{
     width:371px;
+  }
+
 
 

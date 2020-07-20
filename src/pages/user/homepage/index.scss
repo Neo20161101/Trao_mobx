@@ -15,7 +15,7 @@
 				background-color: #fff;
 				padding: 30px 0;
 				margin-bottom: 20px;
-				position relative;
+				position:relative;
 				margin-top: -20px;
 				.AtAvatar{
 					position: absolute;
@@ -35,7 +35,7 @@
 						color: #D7BA76;
 						padding: 0 30px;
 						border: 2px solid;
-						border-radius: 32rpx;
+						border-radius: 16px;
 						line-height: 1.7;
 						position: absolute;
 						top: 10px;
@@ -70,7 +70,7 @@
 							border-top:1px solid #f8f8f8;
 							border-bottom:1px solid #f8f8f8;
 							.content{
-								overflow hidden;
+								overflow:hidden;
 								color: #D7B975;
 								font-size: 26px;
 								padding: 16px 40px;
@@ -104,7 +104,7 @@
 									word-break: break-all;
 									width: 95%;
 									padding-right:10px;
-									position relative;
+									position:relative;
 									image {
 										margin-right: 10px;
 									}
@@ -128,7 +128,7 @@
 				}
 				.at-tabs__item-underline{
 					left: 50%;
-					width: 115rpx;
+					width: 55px;
 					background-color: #D7B975;
 					margin-left: -57.5rpx;
 					height: 4px;
@@ -138,7 +138,7 @@
 						padding: 30px;
 
 						.video{
-							position relative;
+							position:relative;
 							image {
 								border-radius: 16px;
 							}
@@ -146,7 +146,7 @@
 								position: absolute;
 								right: 10px;
 								bottom: 10px;
-								font-size: 22rpx;
+								font-size: 11px;
 								color: #fff;
 								}
 							.icon{
@@ -167,7 +167,7 @@
 								}
 							}
 							.content{
-								position relative;
+								position:relative;
 								padding-left: 20px;
 							.title{
 								font-size: 28px;
@@ -190,35 +190,35 @@
 
 						}
 	.recommended {
-	  width: 696rpx;
+	  width: 696px;
 	  margin: 0 auto;
 	  margin-top: 18px;
 	  display: flex;
 	  flex-wrap: wrap;
 	  justify-content: space-between;
 		.content {
-			width: 335rpx;
-			height: 444rpx;
+			width: 335px;
+			height: 444px;
 			background-color: #F8F8F8;
 		}
 
 		.content_t {
-			width: 335rpx;
-			height: 335rpx;
+			width: 335px;
+			height: 335px;
 			position: relative;
 		}
 
 		.img1 {
-			width: 335rpx;
-			height: 335rpx;
+			width: 335px;
+			height: 335px;
 			position: absolute;
 			left: 0;
 			top: 0;
 		}
 
 		.content_tt {
-			width: 335rpx;
-			height: 60rpx;
+			width: 335px;
+			height: 60px;
 			background: rgba(0, 0, 0, 0.3);
 			position: absolute;
 			bottom: 0;
@@ -227,72 +227,72 @@
 
 		.content_tt {
 			image {
-					width: 57rpx;
-					height: 24rpx;
+					width: 57px;
+					height: 24px;
 					position: absolute;
-					left: 18rpx;
-					top: 22rpx;
+					left: 18px;
+					top: 22px;
 				}
 		}
 
 		.content_tt {
 			text {
-					width: 228rpx;
-					height: 17rpx;
-					font-size: 18rpx;
+					width: 228px;
+					height: 17px;
+					font-size: 18px;
 					font-family: PingFang SC;
 					color: rgba(255, 255, 255, 1);
 					position: absolute;
-					left: 84rpx;
-					top: 22rpx;
+					left: 84px;
+					top: 22px;
 				}
 		}
 
 		.content_b {
-			width: 333rpx;
-			height: 109rpx;
+			width: 333px;
+			height: 109px;
 			position: relative;
 		}
 
 		.content_b {
 			.img {
-				width: 54rpx;
-				height: 54rpx;
+				width: 54px;
+				height: 54px;
 				border-radius: 50%;
 				overflow: hidden;
 				position: absolute;
-				left: 27rpx;
-				bottom: 27rpx;
+				left: 27px;
+				bottom: 27px;
 			}
 		}
 
 		.img {
 			.img2 {
-					width: 54rpx;
-					height: 54rpx;
+					width: 54px;
+					height: 54px;
 				}
 		}
 
 		.content_b {
 			text {
-					width: 106rpx;
-					height: 23rpx;
-					font-size: 24rpx;
+					width: 106px;
+					height: 23px;
+					font-size: 24px;
 					font-family: PingFang SC;
 					font-weight: bold;
 					color: rgba(51, 51, 51, 1);
 					position: absolute;
-					left: 100rpx;
-					bottom: 60rpx;
+					left: 100px;
+					bottom: 60px;
 				}
 		}
 
 		.img3 {
-			width: 63rpx;
-			height: 24rpx;
+			width: 63px;
+			height: 24px;
 			position: absolute;
-			left: 100rpx;
-			bottom: 27rpx;
+			left: 100px;
+			bottom: 27px;
 		}
 	}
 				}

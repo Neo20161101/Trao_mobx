@@ -1,6 +1,7 @@
 import { observable } from 'mobx'
 import Taro from '@tarojs/taro'
 import http from './http'
+
 const store = observable({
   counter: 0,
   isLogin:false,
@@ -43,7 +44,7 @@ const store = observable({
   getUserInfo(){
     const that = this
     Taro.getUserInfo({
-      success: function (res) {
+      success: function (res:any) {
         Taro.setStorage({
           key: "userInfo",
           data: res.userInfo
@@ -73,7 +74,7 @@ const store = observable({
 
   setRegister(parm){
     const that = this
-    http.FetchWechatRegister(parm).then(item => {
+    http.FetchWechatRegister(parm).then((item:any) => {
       if (item.code == "0") {
         Taro.setStorage({
           key: "info",
@@ -92,7 +93,7 @@ const store = observable({
 
   Login(res){
     const that = this;
-    http.FetchWechatLogin({ wechat_mini_code: res.code }).then(itemlist => {
+    http.FetchWechatLogin({ wechat_mini_code: res.code }).then((itemlist:any) => {
       if (itemlist.code == "0") {
         if (itemlist.result.user_status == 0) {
           Taro.setStorage({

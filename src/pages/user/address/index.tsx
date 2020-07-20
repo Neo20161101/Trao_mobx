@@ -1,10 +1,9 @@
-import { ComponentType } from 'react'
-import Taro, { Component, Config } from '@tarojs/taro'
+import React, { Component } from 'react'
 import { View, Button, Text, Image } from '@tarojs/components'
-import { observer, inject } from '@tarojs/mobx'
+import { observer, inject } from 'mobx-react'
 import { AtTag, AtButton } from 'taro-ui'
 
-import './index.styl'
+import './index.scss'
 
 type PageStateProps = {
   http: {
@@ -30,16 +29,6 @@ class Index extends Component {
       value:"",
       addresslist:[]
     }
-  }
-  /**
-   * 指定config的类型声明为: Taro.Config
-   *
-   * 由于 typescript 对于 object 类型推导只能推出 Key 的基本类型
-   * 对于像 navigationBarTextStyle: 'black' 这样的推导出的类型是 string
-   * 提示和声明 navigationBarTextStyle: 'black' | 'white' 类型冲突, 需要显示声明类型
-   */
-  config: Config = {
-    navigationBarTitleText: '收货地址',
   }
 
   componentWillMount() { }
@@ -104,4 +93,4 @@ class Index extends Component {
   }
 }
 
-export default Index as unknown as ComponentType
+export default Index as unknown

@@ -1,16 +1,17 @@
-import { ComponentType } from 'react'
-import Taro, { Component, Config } from '@tarojs/taro'
-import { observer, inject } from '@tarojs/mobx'
+import React, { Component } from 'react'
+import { observer, inject } from 'mobx-react'
 import Home from '../tabBar/home/index'
 
-import './index.styl'
+import './index.scss'
 
 type PageStateProps = {
-  counterStore: {
-    counter: number,
-    increment: Function,
-    decrement: Function,
-    incrementAsync: Function
+  store: {
+    counterStore: {
+      counter: number,
+      increment: Function,
+      decrement: Function,
+      incrementAsync: Function
+    }
   }
 }
 
@@ -18,34 +19,22 @@ interface Index {
   props: PageStateProps;
 }
 
-@inject('counterStore')
+@inject('store')
 @observer
 class Index extends Component {
-
-  /**
-   * 指定config的类型声明为: Taro.Config
-   *
-   * 由于 typescript 对于 object 类型推导只能推出 Key 的基本类型
-   * 对于像 navigationBarTextStyle: 'black' 这样的推导出的类型是 string
-   * 提示和声明 navigationBarTextStyle: 'black' | 'white' 类型冲突, 需要显示声明类型
-   */
-  config: Config = {
-    navigationBarTitleText: '首页'
-  }
-
   componentWillMount () {}//dom加载前
 
-  componentWillReact () {
-    console.log('componentWillReact')
-  }
+  // componentWillReact () {
+  //   console.log('componentWillReact')
+  // }
 
-  componentDidMount () { }//dom加载后
+  componentDidMount () { console.log('dfdsfsdfsdfdsf')}//dom加载后
 
   componentWillUnmount () { }//离开路由
 
   componentDidShow () { }//显示页面时
 
-  componentDidHide () { }//隐藏页面时
+  componentDidHide () { }//隐藏页面时<Home />
 
   render () {
     return (
@@ -54,4 +43,4 @@ class Index extends Component {
   }
 }
 
-export default Index  as ComponentType
+export default Index

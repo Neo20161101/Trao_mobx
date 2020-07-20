@@ -1,7 +1,7 @@
 import Taro from '@tarojs/taro'
 
 const foodstp = "https://www.wqz.com:2014";
-const localhost = "http://www.wqz.com:2012";
+// const localhost = "http://www.wqz.com:2012";
 
 const hearder = {
     'X-Requested-With': 'XMLHttpRequest',

@@ -15,14 +15,14 @@
       padding-bottom: 5px;
       border-bottom-left-radius: 12px;
       border-bottom-right-radius: 12px;
-      position relative;
+      position:relative;
       .btn{
         padding: 10px 0;
         overflow: hidden;
         button{
           color: #B1B1B6;
-          border: 1rpx solid #B1B1B6;
-          margin-right: 24rpx;
+          border: 1px solid #B1B1B6;
+          margin-right: 24px;
           border-radius: 50px;
           float:right;
         }
@@ -32,7 +32,7 @@
         padding: 15px 24px;
       }
       .more_btn{
-        background-image: url("https://img1.starfox.cn:9001/livefs/image/20200429/19/42/0/icon_delete_order.png")
+        background-image: url("https://img1.starfox.cn:9001/livefs/image/20200429/19/42/0/icon_delete_order.png");
         background-size: 100%;
         background-position: 0px 1px;
         background-repeat: no-repeat;

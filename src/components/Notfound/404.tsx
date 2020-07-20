@@ -1,10 +1,9 @@
-import { ComponentType } from 'react'
-import Taro, { Component, Config } from '@tarojs/taro'
+import React, { Component } from 'react'
 import {View, Button, Text, Image} from '@tarojs/components'
-import { observer, inject } from '@tarojs/mobx'
+import { observer, inject } from 'mobx-react'
 import { AtDivider } from 'taro-ui'
 import Icon_404 from '../../static/img/notfound/icon_404.png'
-import './style.styl'
+import './style.scss'
 
 type PageStateProps = {
   counterStore: {
@@ -76,4 +75,4 @@ class Index extends Component {
   }
 }
 
-export default Index  as ComponentType
+export default Index
