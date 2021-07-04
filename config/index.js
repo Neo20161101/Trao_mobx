@@ -1,6 +1,6 @@
 const config = {
-  projectName: 'Trao_mobx',
-  date: '2020-7-20',
+  projectName: 'test2',
+  date: '2021-7-5',
   designWidth: 750,
   deviceRatio: {
     640: 2.34 / 2,

@@ -1,11 +1,11 @@
 {
-  "name": "Trao_mobx",
+  "name": "test2",
   "version": "1.0.0",
   "private": true,
-  "description": "taro_mobx",
+  "description": "test2",
   "templateInfo": {
     "name": "mobx",
-    "typescript": true,
+    "typescript": false,
     "css": "sass"
   },
   "scripts": {
@@ -35,31 +35,28 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.7",
-    "@tarojs/components": "3.0.5",
-    "@tarojs/react": "3.0.5",
-    "@tarojs/runtime": "3.0.5",
-    "@tarojs/taro": "3.0.5",
+    "@tarojs/components": "3.2.13",
+    "@tarojs/react": "3.2.13",
+    "@tarojs/runtime": "3.2.13",
+    "@tarojs/taro": "3.2.13",
     "mobx": "^4.8.0",
     "mobx-react": "^6.1.4",
-    "react": "^16.10.0",
-    "react-dom": "^16.10.0",
-    "taro-ui": "^3.0.0-alpha"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "taro-ui": "^3.0.0-alpha.10"
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
-    "@tarojs/mini-runner": "3.0.5",
-    "@tarojs/webpack-runner": "3.0.5",
-    "@types/react": "^16.0.0",
+    "@tarojs/mini-runner": "3.2.13",
+    "@tarojs/webpack-runner": "3.2.13",
+    "@types/react": "^17.0.2",
     "@types/webpack-env": "^1.13.6",
-    "@typescript-eslint/eslint-plugin": "^2.x",
-    "@typescript-eslint/parser": "^2.x",
-    "babel-preset-taro": "3.0.5",
+    "babel-preset-taro": "3.2.13",
     "eslint": "^6.8.0",
-    "eslint-config-taro": "3.0.5",
+    "eslint-config-taro": "3.2.13",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-react": "^7.8.2",
-    "eslint-plugin-react-hooks": "^1.6.1",
-    "stylelint": "9.3.0",
-    "typescript": "^3.7.0"
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "stylelint": "9.3.0"
   }
 }
